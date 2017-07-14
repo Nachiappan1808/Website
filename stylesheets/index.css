@@ -1,0 +1,99 @@
+#banner{
+    min-height:100vh;
+}
+
+#banner video{
+  width:100%;overflow:hidden;z-index:-1;"
+}
+
+@media screen and (max-width: 1124px){
+  html,body{
+    position:relative;
+    max-width:100%;
+    overflow-x:hidden;
+  }
+  #banner video{
+    height:100vh;
+    width:auto;
+    //transform: rotateZ(90deg) translate(0,20%);
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+  }
+}
+
+#banner h1{
+    font-size:36px;
+}
+
+.moscol{
+    color:#00537e;
+ }
+ .back-moscol{
+     background-color:#00537e;
+ }
+
+ a img{
+     height: 1em;
+     width:1em;
+     margin:auto 5px;
+ }
+
+ .border-moscol{
+     border:1px solid #00537e;
+ }
+
+ .montserrat{
+     font-family:'montserrat';
+ }
+
+ #showcase div div{
+     border-radius:30px;
+     width:300px;
+     text-align: center;
+     font-family:'montserrat';
+     cursor:pointer;
+ }
+
+#showcase img{
+  transition:0.4s;
+}
+
+ #download a{
+    border-radius:30px;
+ }
+
+ #showcase div div:hover{
+     color:#00B7FF;
+
+ }
+ .underline{
+     text-decoration: underline;
+ }
+
+ #read-more.highlight,#head-hunt.highlight{
+     background:red;
+ }
+
+
+ .hexa-parent{
+         margin:16px;
+ }
+ .hexa{
+     position:relative;
+     cursor:pointer;
+ }
+
+
+ .hexa span{
+     font-size:36px;
+     position:absolute;
+     top:50%;
+     left:50%;
+     transform:translate(-50%,-50%);
+ }
+ .animate-opacity{
+  animation-duration: 3s;
+ }
